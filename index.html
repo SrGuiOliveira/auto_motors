@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Motors</title>
+    <link rel="icon" href="./images/logo.jpg">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-1 section-title">Auto Motors</h1>
+            <button data-bs-toggle="collapse" data-bs-target="#menu" type="button" class="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre"  class="nav-link">
+                            <i class="bi bi-house-fill me-1"></i>
+                            Sobre a Auto Motors
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a  class="nav-link" href="#catalogo">
+                            <i class="bi bi-car-front-fill me-1"></i>
+                            Nosso catálogo
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a  class="nav-link" href="#contato">
+                            <i class="bi bi-envelope me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre" class="pt-3 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 w-100">
+                        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="3000">
+                                    <img class="d-block" src="./images/carousel/foto1.jpg" alt="Foto de uma BMW">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img class="d-block" src="./images/carousel/foto2.jpg" alt="Foto de um Nissan">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img class="d-block" src="./images/carousel/foto3.jpg" alt="Foto de um Mercedes Benz">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 pt-4">
+                        <div class="carousel slide" id="carousel1">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <h2 class="text-center section-title fs-1">Sobre a Auto Motors</h2>
+                                    <p class="ms-5 me-5 p-5">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum rem molestias hic voluptas nulla possimus nesciunt praesentium cum incidunt repellendus iure aperiam nisi officiis voluptatum excepturi mollitia delectus, exercitationem non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam suscipit aliquam accusamus facilis laudantium maiores reiciendis molestias. Vero praesentium blanditiis hic ipsam ut tenetur dolore corporis sit. Odit, nulla sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iste fugiat totam repudiandae sit fuga, deserunt quas repellat similique quam eum harum consequuntur consequatur nobis ipsam exercitationem laudantium ullam? Animi.
+                                    </p>                                
+                                </div>
+                                <div class="carousel-item">
+                                    <h2 class="text-center section-title fs-1">Nosso objetivo</h2>
+                                    <p class="ms-5 me-5 p-5">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint quis quae voluptatum sapiente, qui sed alias non id officia animi dolores ad amet, eius incidunt aut voluptate nam? Voluptate, consequatur? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi repellat, vitae enim et repudiandae perspiciatis qui vero architecto? Dolor hic odio sit laboriosam! Neque sint recusandae facere beatae, dolorem ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quaerat quis repellat doloribus animi repellendus a illum, necessitatibus architecto quod aliquid vero qui fuga nostrum, omnis ratione facilis neque nobis.
+                                    </p>                                
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon btn span me-5 "></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon btn span ms-5"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <h2 class="section-title fs-1">O que a Auto Motors te oferece!</h2>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-md-4 mb-2">
+                        <article class="card">
+                            <img class="" src="./images/foto1.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold">
+                                    <i class="bi bi-bag-fill"></i>
+                                    Encontre o seu carro!</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic ullam voluptatem inventore aperiam culpa sint architecto minus repellat aspernatur beatae omnis quia quibusdam tempore saepe incidunt sed, quod, reprehenderit commodi.
+                                </p>
+                                <a href="#" class="btn btn-primary w-100">Leia mais</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <article class="card">
+                            <img class="" src="./images/foto2.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold">
+                                    <i class="bi bi-bag"></i>
+                                    Compramos o seu veículo</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic ullam voluptatem inventore aperiam culpa sint architecto minus repellat aspernatur beatae omnis quia quibusdam tempore saepe incidunt sed, quod, reprehenderit commodi.
+                                </p>
+                                <a href="#" class="btn btn-primary w-100">Leia mais</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <article class="card">
+                            <img class="jh" src="./images/foto3.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold">
+                                    <i class="bi bi-arrow-clockwise"></i>
+                                    Aceitamos troca!</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic ullam voluptatem inventore aperiam culpa sint architecto minus repellat aspernatur beatae omnis quia quibusdam tempore saepe incidunt sed, quod, reprehenderit commodi.
+                                </p>
+                                <a href="#" class="btn btn-primary w-100">Leia mais</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="catalogo">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5 fs-1">Nosso catálogo</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-catalogo mb-4">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bmw" class="nav-link text-colored fw-bold text-start active">BMW</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#nissan" class="nav-link text-colored fw-bold text-start">Nissan</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mercedes-benz" class="nav-link text-colored fw-bold text-start">Mercedes Benz</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#volkswagen" class="nav-link text-colored fw-bold text-start">Volkswagen</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#outros" class="nav-link text-colored fw-bold text-start">Outros</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content ms-3">
+                            <div class="tab-pane active" id="bmw">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                        <img class="d-block w-100" src="./images/catalogo/bmw/bmwz4.jpg" alt="BMW Z4">
+                                        <h5 class="text-colored fw-bold mt-2">BMW Z4</h5>
+                                        <p>
+                                            2.0 TWINPOWER GASOLINA SDRIVE30i M SPORT.
+                                        </p>
+                                        <button type="button" class="btn btn-primary w-100"> Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <img class="d-block w-100" src="./images/catalogo/bmw/bmwm2.jpg" alt="BMW M2">
+                                        <h5 class="text-colored fw-bold mt-2">BMW M2</h5>
+                                        <p>
+                                            3.0 24V I6 GASOLINA COMPETITION COUPÉ M
+                                        </p>
+                                        <button type="button" class="btn btn-primary w-100"> Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <img class="d-block w-100" src="./images/catalogo/bmw/bmwx4.jpg" alt="BMW X4">
+                                        <h5 class="text-colored fw-bold mt-2">BMW X4</h5>
+                                        <p>
+                                            3.0 TWINPOWER GASOLINA M40I AUTOMÁTICO
+                                        </p>
+                                        <button type="button" class="btn btn-primary w-100"> Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <img class="d-block w-100" src="./images/catalogo/bmw/bmwx5.jpg" alt="BMW X5">
+                                        <h5 class="text-colored fw-bold mt-2">BMW X5</h5>
+                                        <p>
+                                            3.0 I6 TURBO XDRIVE45E M SPORT AUTOMÁTICO
+                                        </p>
+                                        <button type="button" class="btn btn-primary w-100"> Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <img class="d-block w-100" src="./images/catalogo/bmw/bmwm3.jpg" alt="BMW M3">
+                                        <h5 class="text-colored fw-bold mt-2">BMW M3</h5>
+                                        <p>
+                                            3.0 I6 TURBO XDRIVE45E M SPORT AUTOMÁTICO
+                                        </p>
+                                        <button type="button" class="btn btn-primary w-100"> Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="nissan">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                        <img class="d-block w-100" src="./images/catalogo/nissan/nissankicks.jpg" alt="Nissan Kicks">
+                                        <h5 class="text-colored fw-bold mt-2">Nissan Kicks</h5>
+                                        <p>
+                                            1.6 16V FLEXSTART ADVANCE XTRONIC.
+                                        </p>
+                                        <button type="button" class="btn btn-primary w-100"> Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <img class="d-block w-100" src="./images/catalogo/nissan/nissanfrontier.jpg" alt="Nissan Frontier">
+                                        <h5 class="text-colored fw-bold mt-2">Nissan Frontier</h5>
+                                        <p>
+                                            2.3 16V TURBO DIESEL S CD 4X4 MANUAL.
+                                        </p>
+                                        <button type="button" class="btn btn-primary w-100"> Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <img class="d-block w-100" src="./images/catalogo/nissan/nissanleaf.jpg" alt="Nissan Leaf">
+                                        <h5 class="text-colored fw-bold mt-2">Nissan Leaf</h5>
+                                        <p>
+                                            B12P 40 ELÉTRICO ADVANCE XTRONIC
+                                        </p>
+                                        <button type="button" class="btn btn-primary w-100"> Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="mercedes-benz">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                        <img class="d-block w-100" src="./images/catalogo/mb/mbglc.jpg" alt="Mercedes-Benz GLC">
+                                        <h5 class="text-colored fw-bold mt-2">Mercedes-Benz GLC 43 AMG</h5>
+                                        <p>
+                                            3.0 V6 GASOLINA 4MATIC 9G-TRONIC.
+                                        </p>
+                                        <button type="button" class="btn btn-primary w-100"> Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <img class="d-block w-100" src="./images/catalogo/mb/mbgla.jpg" alt="Mercedes-Benz GLA 200">
+                                        <h5 class="text-colored fw-bold mt-2">Mercedes-Benz GLA 200</h5>
+                                        <p>
+                                            1.6 CGI 16V TURBO FLEX 4P AUTOMÁTICO.
+                                        </p>
+                                        <button type="button" class="btn btn-primary w-100"> Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="volkswagen">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                        <img class="d-block w-100" src="./images/catalogo/volks/jetta.jpg" alt="Volkswagen Jetta">
+                                        <h5 class="text-colored fw-bold mt-2">Volkswagen Jetta</h5>
+                                        <p>
+                                            2.0 TSI HIGHLINE 211CV GASOLINA 4P TIPTRONIC
+                                        </p>
+                                        <button type="button" class="btn btn-primary w-100"> Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 mb-3">
+                                        <img class="d-block w-100" src="./images/catalogo/volks/fusca.jpg" alt="Volkswagen Fusca">
+                                        <h5 class="text-colored fw-bold mt-2">Volkswagen Fusca</h5>
+                                        <p>
+                                            2.0 TSI 16V GASOLINA 2P AUTOMÁTICO
+                                        </p>
+                                        <button type="button" class="btn btn-primary w-100"> Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="outros">
+                                <div class="row">
+                                    <div class="col-md-12 mb-3">
+                                        <h5 class="text-colored fw-bold mt-2">
+                                            <i class="bi bi-alarm fw-bold"></i>
+                                            Em breve...</h5>
+                                        <p class="fw-bold">
+                                            Estamos trabalhando para te trazer mais novidades!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fs-1">Fale conosco!</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold">Seu nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3"> 
+                                <label for="email" class="form-label fw-bold">Seu e-mail:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold">Seu telefone (opcional):</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Sua mensagem:</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>    
+                                Nossas Redes socias
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4 endereco">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Nosso Endereço
+                            </h3>
+                            <p>Rua Teste Exemplo n° 322, Bairro Bootstrap - São Paulo - SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
